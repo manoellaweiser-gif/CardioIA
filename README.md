@@ -163,18 +163,117 @@ Foram selecionados textos científicos relacionados às doenças cardiovasculare
    Link: https://www.scielo.br/j/abc/a/nFdVjRPRbdjy5hZgwB3ByFy/?lang=pt
 
 
+
 ## 4. Parte 3 — Dados Visuais
 
 ### Tipo de exame
 
+Para a etapa de dados visuais do CardioIA, foi selecionado o conjunto de dados de radiografias de tórax do NIH (NIH Chest X-ray).
+
+As imagens são radiografias de tórax e podem apresentar diferentes alterações e condições torácicas. O conjunto é adequado para exploração de técnicas de Visão Computacional e Inteligência Artificial aplicadas à análise de imagens médicas.
+
 ### Origem das imagens
+
+As imagens foram obtidas por meio do conjunto de dados público disponibilizado pelo Google Cloud, baseado no conjunto de dados de radiografias de tórax do NIH.
+
+O conjunto é fornecido pelo NIH Clinical Center e contém imagens desidentificadas de radiografias de tórax em formato PNG.
+
+Fonte: Google Cloud / NIH Clinical Center
 
 ### Aplicações de Visão Computacional
 
+As imagens podem ser utilizadas em técnicas de Visão Computacional e Machine Learning para:
+
+- classificação automática de imagens;
+- identificação de padrões presentes nas radiografias;
+- detecção de alterações torácicas;
+- extração de características visuais;
+- treinamento de modelos de Deep Learning;
+- desenvolvimento de sistemas de apoio à análise de imagens médicas.
+
 ### Relevância para o projeto
+
+Os dados visuais complementam os dados numéricos e textuais utilizados no CardioIA.
+
+Enquanto os dados numéricos representam características clínicas estruturadas e os dados textuais fornecem informações em linguagem natural, as imagens acrescentam informações visuais que podem ser analisadas por técnicas de Visão Computacional.
+
+A utilização dessas imagens permite explorar, em etapas futuras, modelos de Inteligência Artificial capazes de identificar padrões em radiografias de tórax e contribuir para uma análise mais ampla de informações relacionadas à saúde cardiovascular.
 
 ### Link para as imagens
 
+O conjunto de dados utilizado está disponível por meio da documentação do Google Cloud:
+
+https://docs.cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-chest?hl=pt-br
+
+Fonte original: NIH Clinical Center.
+
+## 5. Considerações sobre Governança de Dados
 ## 5. Considerações sobre Governança de Dados
 
+O projeto CardioIA utiliza diferentes tipos de dados — numéricos, textuais e visuais — para explorar aplicações de Inteligência Artificial na área da saúde cardiovascular. Dessa forma, aspectos relacionados à qualidade, privacidade, segurança, representatividade e possíveis vieses dos dados devem ser considerados durante o desenvolvimento do projeto.
+
+### Qualidade dos dados
+
+No conjunto de dados numéricos utilizado, foram identificados 303 registros e 14 variáveis. Durante a análise inicial, foram encontrados 4 valores ausentes na variável `vasos_principais` e 2 valores ausentes na variável `thal`. Esses valores foram mantidos no conjunto de dados original, sem preenchimento artificial, para preservar as características do dataset.
+
+Também não foram identificadas duplicatas nos dados analisados.
+
+Os dados textuais foram organizados individualmente em arquivos `.txt`, mantendo seu conteúdo para posterior utilização em técnicas de Processamento de Linguagem Natural.
+
+No conjunto de dados visuais, foram utilizadas imagens provenientes do NIH Chest X-ray, disponibilizadas de forma desidentificada.
+
+### Privacidade e proteção de dados
+
+Os conjuntos de dados utilizados no projeto são provenientes de fontes públicas e acadêmicas. Os dados utilizados devem ser tratados de acordo com as condições de uso e licenciamento estabelecidas pelas respectivas fontes.
+
+No caso das imagens médicas utilizadas, a utilização de dados desidentificados reduz os riscos relacionados à exposição de informações pessoais dos pacientes.
+
+O CardioIA não tem como objetivo armazenar ou divulgar informações pessoais identificáveis de pacientes.
+
+### Possíveis vieses
+
+Os conjuntos de dados utilizados podem apresentar vieses relacionados à população representada, à origem dos dados e à forma como as informações foram coletadas ou classificadas.
+
+O conjunto de dados numéricos possui uma quantidade limitada de registros e pode não representar adequadamente diferentes populações.
+
+Os dados textuais também podem refletir perspectivas específicas dos autores e das fontes utilizadas.
+
+No caso das imagens, os resultados de modelos de Inteligência Artificial podem ser influenciados pela distribuição da população, pelos equipamentos utilizados, pela qualidade das imagens e pela forma como os rótulos foram obtidos.
+
+Por esse motivo, eventuais modelos desenvolvidos futuramente a partir desses dados não devem ser considerados automaticamente generalizáveis para toda a população.
+
+### Uso responsável da Inteligência Artificial
+
+Os dados utilizados no projeto têm finalidade acadêmica e de pesquisa. Eventuais modelos desenvolvidos nas etapas futuras devem ser considerados ferramentas de apoio à análise e não substitutos da avaliação realizada por profissionais de saúde.
+
+Resultados produzidos por modelos de Inteligência Artificial devem ser interpretados considerando as limitações dos dados utilizados para seu treinamento e validação.
+
+### Limitações
+
+Entre as principais limitações identificadas estão:
+
+- quantidade limitada de registros no conjunto de dados numéricos;
+- presença de valores ausentes em algumas variáveis;
+- possibilidade de vieses na composição dos datasets;
+- diferenças entre as populações representadas pelos diferentes conjuntos de dados;
+- limitações inerentes à classificação e anotação dos dados;
+- necessidade de validação adequada antes de qualquer aplicação prática.
+
+Essas limitações deverão ser consideradas nas próximas etapas do desenvolvimento do CardioIA.
+
 ## 6. Referências
+
+
+UCI MACHINE LEARNING REPOSITORY. **Heart Disease Dataset**. University of California, Irvine. Disponível em: https://archive.ics.uci.edu/dataset/45/heart+disease. Acesso em: 24 ago. 2026.
+
+### Dados textuais
+
+ARQUIVOS BRASILEIROS DE CARDIOLOGIA. **Precisamos Falar de Determinantes Sociais de Saúde Cardiovascular**. SciELO. Disponível em: https://www.scielo.br/j/abc/a/wNjCYTGGrxJCPDTBJ3qB64n/?format=html&lang=pt. Acesso em: 24 ago. 2026.
+
+ARQUIVOS BRASILEIROS DE CARDIOLOGIA. **Impacto do Envelhecimento Populacional na Prevalência de Doenças Cardiovasculares nas Macrorregiões do Brasil: Previsões para 2050**. SciELO. Disponível em: https://www.scielo.br/j/abc/a/nFdVjRPRbdjy5hZgwB3ByFy/?lang=pt. Acesso em: 24 ago. 2026.
+
+### Dados visuais
+
+GOOGLE CLOUD. **NIH Chest X-ray Dataset**. Google Cloud Healthcare API. Disponível em: https://docs.cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-chest?hl=pt-br. Acesso em: 24 ago. 2026.
+
+NATIONAL INSTITUTES OF HEALTH. **NIH Clinical Center Chest X-ray Dataset**. NIH Clinical Center.
