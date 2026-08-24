@@ -11,12 +11,24 @@
 ## CardioIA
 
 ## 👨‍🎓 Integrantes: 
-## 👨‍🎓 Integrantes: 
-- <a href="https://github.com/manoellaweiser-gif">Nome do integrante 1</a>
-- <a href="https://github.com/JoaoMDPaiva">Nome do integrante 2</a>
-- <a href="(https://github.com/younmariana-create)">Nome do integrante 3</a> 
-- <a href="(https://github.com/Luiz-Frederico)">Nome do integrante 4</a> 
-- <a href="(https://github.com/henriquehsilva)">Nome do integrante 5</a>
+<p align="left">
+  <a href="https://github.com/Luiz-Frederico" target="_blank">
+    <img src="https://github.com/Luiz-Frederico.png" width="64" height="64" alt="@Luiz-Frederico" />
+  </a>
+  </a>
+  <a href="https://github.com/henriquehsilva" target="_blank">
+    <img src="https://github.com/henriquehsilva.png" width="64" height="64" alt="@henriquehsilva" />
+  </a>
+  <a href="https://github.com/manoellaweiser-gif" target="_blank">
+    <img src="https://github.com/manoellaweiser-gif.png" width="64" height="64" alt="@manoellaweiser-gif" />
+  </a>
+  <a href="https://github.com/JoaoMDPaiva" target="_blank">
+    <img src="https://github.com/JoaoMDPaiva.png" width="64" height="64" alt="@JoaoMDPaiva" />
+  </a>
+  <a href="https://github.com/younmariana-create" target="_blank">
+    <img src="https://github.com/younmariana-create.png" width="64" height="64" alt="@younmariana-create" />
+  </a>
+</p>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
