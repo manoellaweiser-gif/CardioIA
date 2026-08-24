@@ -123,44 +123,58 @@ https://drive.google.com/drive/folders/1CScn40-hVcPR2aZuNSmhcKmt5wNFNWXS?hl=pt-b
 
 ## 3. Parte 2 — Dados Textuais
 
+## 3. Parte 2 — Dados Textuais
+
 ### Fontes
 
-O conjunto de dados preparado está disponível publicamente no Google Drive:
+Foram selecionados textos científicos relacionados à saúde cardiovascular, doenças cardiovasculares, fatores de risco, determinantes sociais e envelhecimento populacional.
 
-https://drive.google.com/drive/folders/1CScn40-hVcPR2aZuNSmhcKmt5wNFNWXS?hl=pt-br
+Os textos foram organizados e armazenados na pasta `artigos/` deste repositório.
 
 ### Como os dados podem ser utilizados em NLP
 
-Os textos podem ser utilizados em técnicas de Processamento de Linguagem Natural (NLP) para identificar e organizar informações relevantes relacionadas à saúde cardiovascular.
+Os textos podem ser utilizados em técnicas de Processamento de Linguagem Natural (NLP) para identificar, extrair e organizar informações relevantes relacionadas à saúde cardiovascular.
 
-Entre as possíveis aplicações estão a extração de sintomas e fatores de risco, classificação de textos por temas, identificação de informações relacionadas a tratamentos e medicamentos e extração de entidades relevantes presentes nos documentos.
+Entre as possíveis aplicações estão:
+
+- identificação de sintomas e fatores de risco;
+- classificação de textos por temas;
+- extração de informações sobre doenças cardiovasculares;
+- identificação de tratamentos e medicamentos;
+- extração de entidades relevantes;
+- identificação de relações entre fatores sociais, demográficos e doenças cardiovasculares.
 
 Essas técnicas podem permitir que grandes volumes de informações textuais sejam processados automaticamente, facilitando a identificação de padrões e informações relevantes para as etapas futuras do projeto CardioIA.
 
 ### Relevância para o projeto
 
-Os dados textuais são relevantes para o CardioIA porque complementam os dados numéricos e visuais utilizados no projeto. Enquanto os dados numéricos apresentam características clínicas estruturadas e as imagens permitem análises por Visão Computacional, os textos fornecem informações em linguagem natural relacionadas a sintomas, doenças, tratamentos e aspectos da saúde cardiovascular.
+Os dados textuais são relevantes para o CardioIA porque complementam os dados numéricos e visuais utilizados no projeto.
+
+Enquanto os dados numéricos apresentam características clínicas estruturadas e as imagens permitem análises por Visão Computacional, os textos fornecem informações em linguagem natural relacionadas à saúde cardiovascular, fatores de risco, determinantes sociais e envelhecimento populacional.
 
 Em etapas futuras, técnicas de NLP poderão ser utilizadas para transformar essas informações textuais em dados estruturados, permitindo sua utilização em sistemas inteligentes e contribuindo para uma análise mais ampla das informações relacionadas à cardiologia.
 
 ### Links
 
+Os textos utilizados no projeto estão disponíveis na pasta `artigos/` deste repositório.
 
-Os textos utilizados no projeto estão disponíveis na pasta de dados textuais do repositório.
-
-As versões originais dos textos podem ser consultadas nas respectivas fontes acadêmicas.
+As versões originais podem ser consultadas nas respectivas fontes acadêmicas.
 
 ### Fontes
 
-Foram selecionados textos científicos relacionados às doenças cardiovasculares e seus fatores associados.
-
-1. Precisamos Falar de Determinantes Sociais de Saúde Cardiovascular
-   Fonte: SciELO / Arquivos Brasileiros de Cardiologia
+1. **Precisamos Falar de Determinantes Sociais de Saúde Cardiovascular**  
+   Fonte: SciELO / Arquivos Brasileiros de Cardiologia  
    Link: https://www.scielo.br/j/abc/a/wNjCYTGGrxJCPDTBJ3qB64n/?format=html&lang=pt
 
-2. Impacto do Envelhecimento Populacional na Prevalência de Doenças Cardiovasculares nas Macrorregiões do Brasil: Previsões para 2050
-   Fonte: SciELO / Arquivos Brasileiros de Cardiologia
+2. **Impacto do Envelhecimento Populacional na Prevalência de Doenças Cardiovasculares nas Macrorregiões do Brasil: Previsões para 2050**  
+   Fonte: SciELO / Arquivos Brasileiros de Cardiologia  
    Link: https://www.scielo.br/j/abc/a/nFdVjRPRbdjy5hZgwB3ByFy/?lang=pt
+
+3. **Manter a saúde do coração em dia depende de um estilo de vida saudável**  
+   Fonte: Ministério da Saúde  
+   Publicado em: 11/02/2022  
+   Link: https://www.gov.br/saude/pt-br
+
 
 
 ## 4. Parte 3 — Dados Visuais
