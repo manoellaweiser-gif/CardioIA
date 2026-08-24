@@ -6,9 +6,9 @@
 
 <br>
 
-# Nome do projeto
+# CardioIA
 
-## Nome do grupo
+## CardioIA
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
@@ -77,14 +77,49 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ## 2. Parte 1 — Dados Numéricos
 
 ### Origem dos dados
+Os dados numéricos utilizados nesta etapa são provenientes do dataset Heart Disease, disponibilizado pelo UCI Machine Learning Repository. A base utilizada corresponde ao conjunto Cleveland e contém 303 registros e 14 variáveis relacionadas a características clínicas dos pacientes e ao diagnóstico de doença cardíaca.
+
+Os dados são provenientes de registros clínicos utilizados para pesquisas relacionadas a doenças cardíacas. Para esta atividade, o arquivo original foi organizado e convertido para o formato CSV, resultando no arquivo heart_disease_final.csv.
+
+Fonte: UCI Machine Learning Repository – Heart Disease:
+https://archive.ics.uci.edu/dataset/45/heart+disease
 
 ### Variáveis
 
+O dataset contém 14 variáveis:
+
+- idade
+- sexo
+- tipo_dor_peito
+- pressao_arterial
+- colesterol
+- glicemia
+- ecg
+- frequencia_cardiaca_max
+- angina_exercicio
+- oldpeak
+- inclinacao_st
+- vasos_principais
+- thal
+- diagnostico
+
 ### Relevância clínica
+
+As variáveis consideradas mais relevantes para um projeto de Inteligência Artificial aplicado à cardiologia são idade, tipo de dor no peito, pressão arterial, colesterol, frequência cardíaca máxima, resultado do eletrocardiograma e angina induzida por exercício.
+
+Essas variáveis representam diferentes características clínicas dos pacientes e podem ser utilizadas em conjunto para identificar padrões nos dados. Em etapas futuras do projeto CardioIA, essas informações poderão servir como características de entrada para modelos de Machine Learning voltados à análise e classificação de padrões associados às doenças cardíacas.
 
 ### Governança e possíveis vieses
 
+As variáveis consideradas mais relevantes para um projeto de Inteligência Artificial aplicado à cardiologia são idade, tipo de dor no peito, pressão arterial, colesterol, frequência cardíaca máxima, resultado do eletrocardiograma e angina induzida por exercício.
+
+Essas variáveis representam diferentes características clínicas dos pacientes e podem ser utilizadas em conjunto para identificar padrões nos dados. Em etapas futuras do projeto CardioIA, essas informações poderão servir como características de entrada para modelos de Machine Learning voltados à análise e classificação de padrões associados às doenças cardíacas.
+
 ### Link para os dados
+
+O conjunto de dados preparado está disponível publicamente no Google Drive:
+
+https://drive.google.com/drive/folders/1CScn40-hVcPR2aZuNSmhcKmt5wNFNWXS?hl=pt-br
 
 ## 3. Parte 2 — Dados Textuais
 
