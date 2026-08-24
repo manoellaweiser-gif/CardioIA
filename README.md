@@ -39,31 +39,52 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+O CardioIA é um projeto voltado à exploração do uso de Inteligência Artificial na área da saúde cardiovascular. A proposta consiste em trabalhar com diferentes tipos de dados relacionados à cardiologia, incluindo dados numéricos, textuais e visuais, buscando compreender como técnicas de Ciência de Dados, Machine Learning, Processamento de Linguagem Natural e Visão Computacional podem ser aplicadas nesse contexto.
 
+Na primeira fase do projeto, foram selecionados e organizados diferentes conjuntos de dados. Para os dados numéricos, foi utilizado o conjunto Heart Disease, disponibilizado pelo UCI Machine Learning Repository, contendo informações clínicas estruturadas de pacientes. Para os dados textuais, foram selecionados artigos científicos relacionados à saúde cardiovascular, fatores de risco, determinantes sociais e envelhecimento populacional. Para os dados visuais, foi utilizado o conjunto de radiografias de tórax do NIH Chest X-ray, disponibilizado por meio do Google Cloud.
+
+O projeto busca explorar a integração desses diferentes formatos de dados como uma possibilidade para o desenvolvimento futuro de soluções inteligentes voltadas à análise de informações cardiovasculares.
+
+Nesta primeira etapa, o foco está na identificação, organização, documentação e análise inicial dos dados, considerando aspectos como qualidade, valores ausentes, origem, relevância, possíveis vieses e governança. Em etapas posteriores, os dados poderão ser utilizados para o desenvolvimento e avaliação de modelos de Inteligência Artificial.
+
+O CardioIA possui caráter acadêmico e experimental, tendo como objetivo desenvolver conhecimentos e aplicações práticas de Ciência de Dados e Inteligência Artificial no contexto da saúde cardiovascular.
 
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
-
+- **.github**: arquivos de configuração e suporte ao gerenciamento do projeto no GitHub.
+- **analise**: scripts utilizados para análise e exploração dos dados, incluindo análises estatísticas do conjunto de dados numéricos.
+- **artigos**: arquivos de texto utilizados na etapa de dados textuais do projeto.
+- **dados**: conjuntos de dados utilizados no projeto, incluindo os dados numéricos do CardioIA.
+- **images**: imagens utilizadas na etapa de dados visuais do projeto.
+- **assets**: arquivos relacionados a elementos visuais e recursos complementares do projeto.
+- **config**: arquivos relacionados a configurações do projeto.
+- **document**: documentos relacionados às atividades e à documentação do projeto.
+- **scripts**: scripts auxiliares utilizados no desenvolvimento do projeto.
+- **src**: espaço destinado ao código-fonte desenvolvido nas diferentes fases do projeto.
+- **.gitignore**: arquivo que define arquivos e pastas que não devem ser versionados pelo Git.
+- **README.md**: documento principal de apresentação, organização e documentação do projeto.
+  
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
 
+### Pré-requisitos
+
+Para executar os scripts de análise dos dados numéricos, são necessários:
+
+- Python 3;
+- Pandas;
+- NumPy;
+- ambiente de desenvolvimento como VS Code ou similar.
+
+### Execução
+
+Após clonar o repositório, acesse a pasta do projeto:
+
+```bash
+cd CardioIA
 
 ## 🗃 Histórico de lançamentos
 
