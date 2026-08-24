@@ -11,11 +11,12 @@
 ## CardioIA
 
 ## 👨‍🎓 Integrantes: 
-Henrique Honório da Silva - RM 567102
-Mariana Carvalho Youn - RM 568548
-Luiz Frederico Nunes Campelo - RM 567319
-Manoella Weiser - RM 567531
-João Victor Matos de Paiva - RM 568345
+## 👨‍🎓 Integrantes: 
+- <a href="https://github.com/manoellaweiser-gif">Nome do integrante 1</a>
+- <a href="https://github.com/JoaoMDPaiva">Nome do integrante 2</a>
+- <a href="(https://github.com/younmariana-create)">Nome do integrante 3</a> 
+- <a href="(https://github.com/Luiz-Frederico)">Nome do integrante 4</a> 
+- <a href="(https://github.com/henriquehsilva)">Nome do integrante 5</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
