@@ -32,9 +32,16 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- <a href="(https://www.linkedin.com/in/leonardoorabona/)">Leonardo Orabona</a>
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+
+<p align="left">
+  <a href="https://github.com/agodoi" target="_blank">
+    <img src="https://github.com/agodoi.png" width="64" height="64" alt="@agodoi" />
+  </a>
+  
+  </p>
 
 
 ## 📜 Descrição
