@@ -112,8 +112,6 @@ cd CardioIA
 
 # CardioIA — Fase 1
 
-## 1. Sobre o projeto
-
 ## 2. Parte 1 — Dados Numéricos
 
 ### Origem dos dados
@@ -247,7 +245,6 @@ https://docs.cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-
 
 Fonte original: NIH Clinical Center.
 
-## 5. Considerações sobre Governança de Dados
 ## 5. Considerações sobre Governança de Dados
 
 O projeto CardioIA utiliza diferentes tipos de dados — numéricos, textuais e visuais — para explorar aplicações de Inteligência Artificial na área da saúde cardiovascular. Dessa forma, aspectos relacionados à qualidade, privacidade, segurança, representatividade e possíveis vieses dos dados devem ser considerados durante o desenvolvimento do projeto.
