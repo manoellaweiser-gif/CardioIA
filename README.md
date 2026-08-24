@@ -11,11 +11,11 @@
 ## CardioIA
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+Henrique Honório da Silva - RM 567102
+Mariana Carvalho Youn - RM 568548
+Luiz Frederico Nunes Campelo - RM 567319
+Manoella Weiser - RM 567531
+João Victor Matos de Paiva - RM 568345
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
