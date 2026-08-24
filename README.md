@@ -8,8 +8,6 @@
 
 # CardioIA
 
-## CardioIA
-
 ## 👨‍🎓 Integrantes: 
 <p align="left">
   <a href="https://github.com/Luiz-Frederico" target="_blank">
