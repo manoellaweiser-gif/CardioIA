@@ -90,6 +90,7 @@ Após clonar o repositório, acesse a pasta do projeto:
 
 ```bash
 cd CardioIA
+```
 
 ## 🗃 Histórico de lançamentos
 
