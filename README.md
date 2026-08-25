@@ -267,6 +267,8 @@ Essas limitações deverão ser consideradas nas próximas etapas do desenvolvim
 
 ## 5. Referências
 
+### Dados Numéricos
+
 
 UCI MACHINE LEARNING REPOSITORY. **Heart Disease Dataset**. University of California, Irvine. Disponível em: https://archive.ics.uci.edu/dataset/45/heart+disease. Acesso em: 24 ago. 2026.
 
