@@ -6,7 +6,7 @@
 
 <br>
 
-# CardioIA
+# CardioIA 
 
 ## 👨‍🎓 Integrantes: 
 <p align="left">
@@ -30,9 +30,17 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="(https://www.linkedin.com/in/leonardoorabona/)">Leonardo Orabona</a>
+- <a href="https://www.linkedin.com/in/leonardoorabona/">Leonardo Orabona</a>
+
+<p align="left">
+  <a href="https://github.com/leoruiz197" target="_blank">
+    <img src="https://github.com/leoruiz197.png" width="64" height="64" alt="@leoruiz197" />
+  </a>
+  
+  </p>
+
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">André Godoi</a>
 
 <p align="left">
   <a href="https://github.com/agodoi" target="_blank">
@@ -71,48 +79,13 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - **src**: espaço destinado ao código-fonte desenvolvido nas diferentes fases do projeto.
 - **.gitignore**: arquivo que define arquivos e pastas que não devem ser versionados pelo Git.
 - **README.md**: documento principal de apresentação, organização e documentação do projeto.
-  
-## 🔧 Como executar o código
 
 
-### Pré-requisitos
+---  
 
-Para executar os scripts de análise dos dados numéricos, são necessários:
+# Fase 1 - Batimentos de Dados (IoT)
 
-- Python 3;
-- Pandas;
-- NumPy;
-- ambiente de desenvolvimento como VS Code ou similar.
-
-### Execução
-
-Após clonar o repositório, acesse a pasta do projeto:
-
-```bash
-cd CardioIA
-```
-
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
-
-## 📋 Licença
-
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-
-
-# CardioIA — Fase 1
-
-## 2. Parte 1 — Dados Numéricos
+## 1. Parte 1 — Dados Numéricos
 
 ### Origem dos dados
 Os dados numéricos utilizados nesta etapa são provenientes do dataset Heart Disease, disponibilizado pelo UCI Machine Learning Repository. A base utilizada corresponde ao conjunto Cleveland e contém 303 registros e 14 variáveis relacionadas a características clínicas dos pacientes e ao diagnóstico de doença cardíaca.
@@ -147,25 +120,13 @@ As variáveis consideradas mais relevantes para um projeto de Inteligência Arti
 
 Essas variáveis representam diferentes características clínicas dos pacientes e podem ser utilizadas em conjunto para identificar padrões nos dados. Em etapas futuras do projeto CardioIA, essas informações poderão servir como características de entrada para modelos de Machine Learning voltados à análise e classificação de padrões associados às doenças cardíacas.
 
-### Governança e possíveis vieses
-
-As variáveis consideradas mais relevantes para um projeto de Inteligência Artificial aplicado à cardiologia são idade, tipo de dor no peito, pressão arterial, colesterol, frequência cardíaca máxima, resultado do eletrocardiograma e angina induzida por exercício.
-
-Essas variáveis representam diferentes características clínicas dos pacientes e podem ser utilizadas em conjunto para identificar padrões nos dados. Em etapas futuras do projeto CardioIA, essas informações poderão servir como características de entrada para modelos de Machine Learning voltados à análise e classificação de padrões associados às doenças cardíacas.
-
 ### Link para os dados
 
 O conjunto de dados preparado está disponível publicamente no Google Drive:
 
-https://drive.google.com/drive/folders/1CScn40-hVcPR2aZuNSmhcKmt5wNFNWXS?hl=pt-br
+https://drive.google.com/drive/folders/10wjLggSbvHDbi6sunj_NVcDA0hr7Yb_B?hl=pt-br
 
-## 3. Parte 2 — Dados Textuais
-
-### Fontes
-
-O conjunto de dados preparado está disponível publicamente no Google Drive:
-
-https://drive.google.com/drive/folders/1CScn40-hVcPR2aZuNSmhcKmt5wNFNWXS?hl=pt-br
+## 2. Parte 2 – Dados Textuais (NLP)
 
 ### Como os dados podem ser utilizados em NLP
 
@@ -183,8 +144,11 @@ Em etapas futuras, técnicas de NLP poderão ser utilizadas para transformar ess
 
 ### Links
 
+O conjunto de dados preparado está disponível publicamente no Google Drive:
 
-Os textos utilizados no projeto estão disponíveis na pasta de dados textuais do repositório.
+https://drive.google.com/drive/folders/1MeP-nTlPJNDzYhA6_vgPYbJDdyuNySoy
+
+Os textos utilizados no projeto estão disponíveis na pasta artigos do repositório (dados textuais) .
 
 As versões originais dos textos podem ser consultadas nas respectivas fontes acadêmicas.
 
@@ -201,8 +165,7 @@ Foram selecionados textos científicos relacionados às doenças cardiovasculare
    Link: https://www.scielo.br/j/abc/a/nFdVjRPRbdjy5hZgwB3ByFy/?lang=pt
 
 
-
-## 4. Parte 3 — Dados Visuais
+## 3. Parte 3 – Dados Visuais (VC)
 
 ### Tipo de exame
 
@@ -212,7 +175,7 @@ As imagens são radiografias de tórax e podem apresentar diferentes alteraçõe
 
 ### Origem das imagens
 
-As imagens foram obtidas por meio do conjunto de dados público disponibilizado pelo Google Cloud, baseado no conjunto de dados de radiografias de tórax do NIH.
+As imagens foram obtidas por meio do conjunto de dados público disponibilizado pelo Google Cloud, baseado no conjunto de dados de radiografias de tórax do NIH e estão disponíveis na pasta images do repositório.
 
 O conjunto é fornecido pelo NIH Clinical Center e contém imagens desidentificadas de radiografias de tórax em formato PNG.
 
@@ -245,7 +208,11 @@ https://docs.cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-
 
 Fonte original: NIH Clinical Center.
 
-## 5. Considerações sobre Governança de Dados
+O conjunto de dados preparado está disponível publicamente no Google Drive:
+
+https://drive.google.com/drive/folders/14zE-ZroFioYjiMi5eaRgsNaMwgGx0aWa?hl=pt-br
+
+## 4. Considerações sobre Governança de Dados
 
 O projeto CardioIA utiliza diferentes tipos de dados — numéricos, textuais e visuais — para explorar aplicações de Inteligência Artificial na área da saúde cardiovascular. Dessa forma, aspectos relacionados à qualidade, privacidade, segurança, representatividade e possíveis vieses dos dados devem ser considerados durante o desenvolvimento do projeto.
 
@@ -298,7 +265,7 @@ Entre as principais limitações identificadas estão:
 
 Essas limitações deverão ser consideradas nas próximas etapas do desenvolvimento do CardioIA.
 
-## 6. Referências
+## 5. Referências
 
 
 UCI MACHINE LEARNING REPOSITORY. **Heart Disease Dataset**. University of California, Irvine. Disponível em: https://archive.ics.uci.edu/dataset/45/heart+disease. Acesso em: 24 ago. 2026.
@@ -314,3 +281,35 @@ ARQUIVOS BRASILEIROS DE CARDIOLOGIA. **Impacto do Envelhecimento Populacional na
 GOOGLE CLOUD. **NIH Chest X-ray Dataset**. Google Cloud Healthcare API. Disponível em: https://docs.cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-chest?hl=pt-br. Acesso em: 24 ago. 2026.
 
 NATIONAL INSTITUTES OF HEALTH. **NIH Clinical Center Chest X-ray Dataset**. NIH Clinical Center.
+
+---
+
+## 🔧 Como executar o código
+
+
+### Pré-requisitos
+
+Para executar os scripts de análise dos dados numéricos, são necessários:
+
+- Python 3;
+- Pandas;
+- NumPy;
+- ambiente de desenvolvimento como VS Code ou similar.
+
+### Execução
+
+Após clonar o repositório, acesse a pasta do projeto:
+
+```bash
+cd CardioIA
+```
+
+## 🗃 Histórico de lançamentos
+
+    
+* 0.1.0 - 24/08/2026
+    *
+
+## 📋 Licença
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
