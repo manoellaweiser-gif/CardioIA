@@ -163,6 +163,7 @@ Foram selecionados textos científicos relacionados às doenças cardiovasculare
 2. Impacto do Envelhecimento Populacional na Prevalência de Doenças Cardiovasculares nas Macrorregiões do Brasil: Previsões para 2050
    Fonte: SciELO / Arquivos Brasileiros de Cardiologia
    Link: https://www.scielo.br/j/abc/a/nFdVjRPRbdjy5hZgwB3ByFy/?lang=pt
+   Link alternativo: https://www.researchgate.net/publication/408051438_Impacto_do_Envelhecimento_Populacional_na_Prevalencia_de_Doencas_Cardiovasculares_nas_Macrorregioes_do_Brasil_Previsoes_para_2050
 
 
 ## 3. Parte 3 – Dados Visuais (VC)
